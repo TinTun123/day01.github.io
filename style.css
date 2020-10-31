@@ -115,13 +115,13 @@ footer address {
     color: #5a5a5a;
 }
 
+
 footer ul {   
     margin-bottom: 5em;
 }  
 
-footer address strong {   
+footer address h5 {   
     color: #adadad;   
-    display: block;   
     padding-bottom: 0.62em;
 }  
 
@@ -153,4 +153,13 @@ section#newletter form {
     padding: 1em;
     margin-top: 2em;
     margin-bottom: 5.5em;
+}
+
+section#contact form {
+    margin-top: 2.5em;
+}
+
+section#contact form {   
+    padding-top: 5rem;   
+    padding-bottom: 3rem; 
 }
