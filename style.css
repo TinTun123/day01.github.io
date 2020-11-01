@@ -40,8 +40,20 @@ section#intro-header .btn-default {
     border: none;
 }
 
+section#intro-header form button[type='Submit'] {
+    margin-left: 1%;
+}
+
+form#signin .input-group {
+    padding: 0 0 1em 0;
+}
+
 .border {
     border: 3px black solid;
+}
+
+.hidden-element {
+    display: none;
 }
 
 section#about img {
