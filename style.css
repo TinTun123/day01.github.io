@@ -175,3 +175,26 @@ section#contact form {
     padding-top: 5rem;   
     padding-bottom: 3rem; 
 }
+
+section#feature .feature {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+section#features .fas {
+    font-size: 2rem;
+}
+
+section#features .fa-heart {
+    color:  #E04C4C;
+}
+
+section#features .feature-tag {
+    
+    max-width: 10.7em;   
+    display: inline-block;   
+    text-align: left;   
+    margin-left: 1.3em;
+    font-size: 1.4rem;
+}
