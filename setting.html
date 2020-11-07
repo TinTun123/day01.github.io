@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setting</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="navstyle.css">
+    <script src="https://kit.fontawesome.com/aa19f3df80.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <nav class="navbar navbar-default navbar-expand-lg fixed-top navbar-light bg-light">
+            <a class="navbar-brand" href="##"><img id="logo" src="image/logo.png" alt="Logo" width="50" height="30" class="d-inline-block"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fas fa-home mr-2"></span>Home</a></li>
+                    <li class="nav-item d-inline d-sm-none"><a class="nav-link" href="##"><span class="fas fa-user-alt mr-2"></span> Profile</a></li>
+                    <li class="nav-item" id="noti"><a class="nav-link" href="##"><span class="badge badge-light">4</span><i class="fas fa-bell mr-2"></i>Notifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="##"><span class="fas fa-envelope mr-2"></span>Message</a></li>
+                    <li class="nav-item d-inline d-sm-none"><a class="nav-link" href="##"><span class="fas fa-sign-out-alt mr-2"></span>Logout</a></li>
+                </ul>
+            </div>
+
+            <button class="navbar-toggler btn btn-outline-secondary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fas fa-bars"></span>
+            </button>
+
+            <form action="##" role="form" id="search" class="form-inline">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search...">
+                    <span class="fas fa-search" aria-hidden="true"></span>
+                </div>
+            </form>
+
+            <form action="##" class="form-inline">
+                <button id="tweet" class="btn btn-default btn-sm d-none d-sm-block">
+                    <span class="fas fa-edit" aria-hidden="true"></span>Tweet
+                </button>
+            </form>
+
+            <div id="nav-option" class="btn-group d-none d-sm-block">
+                <button type="button" class="btn btn-default btn-sm dropdown-toggle thumbnail" data-toggle="dropdown" aria-haspopup="true" aria-hidden="false">
+                    <img src="image/jon.png" alt="Jon">
+                </button>
+
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li class="dropdown-item"><a href="##">Profile</a></li>
+                    <li class="dropdown-item"><a href="setting.html">Setting</a></li>
+                    <li class="divider" role="separator"></li>
+                    <li class="dropdown-item"><a href="##">Logout</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container content">
+            <div class="row">
+                <div id="profile" class="col-md-3 d-none d-sm-inline">
+                    <div id="profile-resume" class="card">
+                        <img src="image/landscape.jpg" class="card-img-top img-fluid" alt="landscape picture">
+                        <div class="card-body">
+                            <img src="image/jon.png" class="card-img" alt="Jon image">
+                            <h4 class="card-title">Jonny Doo <small>@jonnydoo</small></h4>
+                            <p class="card-text">
+                                Dog goes woofy. Did you said squitly?
+                            </p>
+    
+                            <ul class="list-inline list-unstyled">
+                                <li class="list-inline-item" id="card-tweets">
+                                    <a href="##">
+                                        <span class="profile-stats">Tweets</span>
+                                        <span class="profile-value">99k</span>
+                                    </a>
+                                </li>
+    
+                                <li class="list-inline-item text-center" itemref="card-following">
+                                    <a href="##">
+                                        <span class="profile-stats">Follwoing</span>
+                                        <span class="profile-value">7</span>
+                                    </a>
+                                </li>
+    
+                                <li class="list-inline-item" id="card-followers">
+                                    <a href="##">
+                                        <span class="profile-stats">Followers</span>
+                                        <span class="profile-value">132k</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card" id="profile-photo">
+                        <div class="card-header">Photos</div>
+                        <div class="card-body">
+                            <ul class="list-inline list-unstyled">
+                                <li>
+                                    <a href="##"><img src="image/landscape-02.jpg" alt="landscape" class="img-fluid img-thumbnail"></a>
+                                </li>
+                                <li>
+                                    <a href="##"><img src="image/landscape-03.jpg" alt="landscape" class="img-fluid img-thumbnail"></a>
+                                </li>
+                                <li>
+                                    <a href="##"><img src="image/landscape-04.jpg" alt="landscape" class="img-fluid img-thumbnail"></a>
+                                </li>
+                                <li>
+                                    <a href="##"><img src="image/landscape-05.jpg" alt="landscape" class="img-fluid img-thumbnail"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="profile-setting" class="card">
+                        <ul class="nav nav-pills flex-column">
+                            <li role="presentation" class="nav-item"><a class="nav-link active" href="##">Account <i class="fas fa-chevron-right float-right"></i></a></li>
+                            <li role="presentation" class="nav-item"><a class="nav-link" href="##">Security <i class="fas fa-chevron-right float-right"></i></a></li>
+                            <li role="presentation" class="nav-item"><a class="nav-link" href="##">Notifications <i class="fas fa-chevron-right float-right"></i></a></li>
+                            <li role="presentation" class="nav-item"><a class="nav-link" href="##">Design <i class="fas fa-chevron-right float-right"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="main" class="col-12 col-md-6">
+                    <ul id="account-tabs" class="nav nav-tabs nav-justified">
+                        <li role="presentation" class="nav-item"><a class="nav-link active" data-toggle="tab" href="#account-user">User Info</a></li>
+                        <li role="presentation" class="nav-item"><a class="nav-link" data-toggle="tab" href="#account-language">Language</a></li>
+                        <li role="presentation" class="nav-item"><a class="nav-link" data-toggle="tab" href="#account-mobile">Mobile</a></li>
+                    </ul>
+
+                    <div class="tab-content card">
+                        <div role="tabpanal" class="tab-pane fade active" id="account-user">
+                            
+                            <div class="form-group row">
+                                <label for="user" class="col-3 col-form-label">Name</label>
+                                <div class="col-9">
+                                    <input type="text" id="user" class="form-control" value="Jonny Doo">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="username" class="col-3 col-form-label">Username</label>
+                                <div class="col-9">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" aria-hidden="true">@</span>
+                                        </div>
+                                        <input type="text" id="username" class="form-control" value="jonnydoo">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="email" class="col-3 col-form-label">Email</label>
+                                <div class="col-9">
+                                    <input type="text" id="email" class="form-control" value="Jonnydoo@dogmail.com">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <div class="col-9 offset-3">
+                                    <button class="btn btn-primary" type="submit">Savechange</button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div role="tabpanal" class="tab-pane fade" id="account-language">Language tab panal</div>
+                        <div role="tabpanal" class="tab-pane fade" id="account-mobile">Mobile tab panal</div>
+                    </div>
+                </div>
+
+                <div id="right-content" class="col-md-3 d-none d-sm-inline">
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-info">Dogs stats</li>
+                        <li class="list-group-item">Number of days rides <span class="badge badge-success float-right">4</span></li>
+                        <li class="list-group-item">Captured mice<span class="badge badge-danger float-right">87</span></li>
+                        <li class="list-group-item">Postman frightened<span class="badge badge-secondary float-right">2</span></li>
+                        <li class="list-group-item">Always alert badge <span class="badge badge-pill badge-danger float-right"><span class="fas fa-star"></span></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <script src="js/jquary.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/day03.js"></script>
+
+</body>
+</html>

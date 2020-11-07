@@ -15,5 +15,17 @@ $(document).ready(function() {
             $button.after('<span>Message sent. We will contact you soon.</span>');
         }
     });
+    
 });
 
+
+
+
+function myFunction() {
+    let x = document.getElementById("mytopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
